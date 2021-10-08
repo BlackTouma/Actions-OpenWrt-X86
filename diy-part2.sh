@@ -15,4 +15,4 @@ sed -i 's/192.168.1.1/10.8.8.1/g' package/base-files/files/bin/config_generate
 
 cd package/lean
 rm -rf luci-theme-argon
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon luci-theme-argon
